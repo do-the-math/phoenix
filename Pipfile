@@ -12,6 +12,7 @@ djangorestframework = "*"
 django-debug-toolbar = "*"
 djangorestframework-simplejwt = "*"
 coreapi = "*"
+django-save-the-change = "*"
 
 [requires]
 python_version = "3.7"
