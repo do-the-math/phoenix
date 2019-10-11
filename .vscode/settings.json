@@ -1,0 +1,21 @@
+{
+  "python.pythonPath": "/Users/amannidhi/.local/share/virtualenvs/pushman-KZZANLf7/bin/python",
+  "python.linting.pylintEnabled": true,
+
+  "workbench.tree.indent": 19,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.colorTheme": "Default Dark+",
+
+  "git.enableSmartCommit": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "editor.suggestSelection": "first",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.autoClosingBrackets": "always",
+  "editor.renderWhitespace": "all",
+  "editor.tabCompletion": "on",
+  "editor.trimAutoWhitespace": true
+}
