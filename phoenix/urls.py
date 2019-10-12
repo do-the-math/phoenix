@@ -18,12 +18,19 @@ from django.conf.urls import include, url
 from django.contrib import admin
 from django.urls import path
 
+from phoenix.app.urls import api_router
+
+
 admin.site.site_header = 'Phoenix Admin'
 admin.site.site_title = 'Phoenix Admin'
 admin.site.index_title = 'Phoenix Admin'
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url(r'^api/', include(api_router.urls)),
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    # Include the rest of the ruckit app urls
+
 ]
 
 if settings.DEBUG:
