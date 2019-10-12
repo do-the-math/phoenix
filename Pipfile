@@ -13,6 +13,7 @@ django-debug-toolbar = "*"
 djangorestframework-simplejwt = "*"
 coreapi = "*"
 django-save-the-change = "*"
+bcrypt = "*"
 
 [requires]
 python_version = "3.7"
