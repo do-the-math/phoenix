@@ -29,7 +29,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^api/', include(api_router.urls)),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-    # Include the rest of the ruckit app urls
+    # Include the rest of the phoenix app urls
 
 ]
 

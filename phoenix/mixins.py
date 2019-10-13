@@ -20,7 +20,7 @@ from rest_framework.mixins import (
 )
 
 
-from .app.models import UserProfile
+from .app.models import User
 
 
 class PhoenixUpdateModelMixin(UpdateModelMixin):
