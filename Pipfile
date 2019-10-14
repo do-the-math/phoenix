@@ -14,6 +14,10 @@ djangorestframework-simplejwt = "*"
 coreapi = "*"
 django-save-the-change = "*"
 bcrypt = "*"
+gunicorn = "*"
+django-heroku = "*"
+
+
 
 [requires]
 python_version = "3.7"
