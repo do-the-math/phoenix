@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/2.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
-
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -22,17 +21,18 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'mcp-uc_s(i-w@diz4k6v0glb)k9dg0g19_+58ys-@0=t2sd&)&'
 
-AUTH_USER_MODEL = 'app.User'
+AUTH_USER_MODEL = 'accounts.User'
 SITE_ID = 1
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+APPEND_SLASH = False
+
 ALLOWED_HOSTS = ['*']
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'debug_toolbar',
 
     'rest_framework',
-    'phoenix.app'
+    'phoenix.accounts'
 ]
 
 PASSWORD_HASHERS = (
