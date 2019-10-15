@@ -3,3 +3,8 @@
 # Phoenix
 
 Phoenix is a unified platform for Portfolio App
+
+## useful git command
+
+1. remove untracked files from local
+   git clean -fdx
