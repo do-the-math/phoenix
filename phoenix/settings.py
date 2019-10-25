@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'debug_toolbar',
 
     'rest_framework',
-    'phoenix.accounts'
+    'phoenix.accounts',
+    'phoenix.games',
 ]
 
 PASSWORD_HASHERS = (
